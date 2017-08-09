@@ -1,0 +1,28 @@
+@font-face {
+  font-family: CircularStd;
+  src: url('./assets/fonts/CircularStd-Book.woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url('./assets/fonts/CircularStd-Medium.woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: CircularStd;
+  src: url('./assets/fonts/CircularStd-Bold.woff2');
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: CircularStd, "Helvetica Neue", helvetica, arial, sans-serif;
+
+
+}
+
+
