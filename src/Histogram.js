@@ -52,6 +52,17 @@ Diante dos argumentos supracitados, é dever do Estado proteger as mulheres da v
 
     }
 
+
+     getHistogram(str) {
+        const arr = lineBreakToSpace(str.trim()).split(' ');
+
+        return arr.map(val => onlyAphabetic(val).toLowerCase())
+            .filter( val => val.length > 0)
+            .reduce((acc, val) => ({ ...acc, [val]: acc[val] ? acc[val] + 1 : 1 }), {});
+
+    }
+
+
     render() {
         return (
             <div className="container">
